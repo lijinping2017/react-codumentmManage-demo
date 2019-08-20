@@ -1,0 +1,176 @@
+/*@import url("./Panel.css");*/
+
+.login-panel {
+	width: 664px;
+	height: 300px;
+	background: #fff;
+	display: inline-block;
+	padding-bottom: 1%;
+	box-sizing: content-box;
+}
+
+.login-title {
+	border-bottom: 1px solid #eeeeee;
+	width: 100%;
+}
+
+.login-title h3 {
+	width: 143px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-bottom: 2px solid #01a0ea;
+	font-size: 22px;
+	color: #01a0ea;
+	margin: 0 auto;
+}
+
+.login-panel .login-systemMessages {
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 12px;
+	color: #f94e4e;
+}
+
+.login-panel .login-username, .login-panel .login-password {
+	position: relative;
+}
+
+.login-panel .login-username {
+	margin: 0 0 26px 183px;
+}
+
+.login-panel .login-password {
+	margin: 0 0 26px 183px;
+}
+
+.login-panel .message {
+	margin-left: 9px;
+	font-size: 10px;
+	display: inline-block;
+	color: #f94e4e;
+}
+
+.login-panel .login-btn {
+	width: 100%;
+	height: 38px;
+	text-align: center;
+}
+
+.login-btn .button-loading[aria-disabled="true"] {
+	width: 20px;
+	height: 20px;
+	background: url("./images/loading.gif") no-repeat center center;
+}
+
+.login-username .icon {
+	background: url(./images/personIcon.png) no-repeat;
+	background-position: 1px 0;
+}
+
+.login-password .icon {
+	background: url(./images/lockIcon.png) no-repeat;
+	background-position: 1px 0;
+}
+
+.login-panel .icon {
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	top: 14px;
+	left: 14px;
+}
+
+.login-panel input {
+	width: 296px;
+	height: 44px;
+	/* text-indent: 40px; */
+	padding-left: 40px;
+	box-sizing: border-box;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+}
+
+.login-panel button {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 188px;
+	height: 40px;
+	background-color: #52b6ff;
+	cursor: pointer;
+	color: white;
+	text-align: center;
+	line-height: 38px;
+	font-size: 18px;
+	border-radius: 3px;
+	border: none;
+}
+
+.login-panel button:hover {
+	background-color: #00a1ea;
+}
+
+.login-panel button:disabled {
+	background-color: #7bc6ff;
+}
+
+.login-register {
+	margin: 20px 0;
+}
+.login-path{
+	font-size:14px;
+	margin:30px 0 0 183px
+}
+.login-path a{
+	text-decoration : none
+}
+.login-path-reg{
+	color:#8b8b8b;
+}
+.login-path-reg a{
+	color:#52b6ff;
+	font-style:normal;
+}
+.login-path-log{
+	margin-left: 135px;
+	color:#b3b3b3;
+}
+#login-main{
+	margin: 0px!important;
+	background: url(./images/login.jpg) no-repeat!important;
+	width: 100%!important;
+	min-height: 100vh;
+}
+#login-container{
+	min-width: 0px!important;
+	min-height: 100vh;
+}
+#login-main>.template{
+	float: none!important;
+}
+#login-main>.template .login-panel{
+	display:block;
+	margin: 10px auto 0px auto;
+	border-radius: 15px;
+	background-color:rgba(255, 255, 255, 0.3);
+	width: 480px;
+}
+
+.login-panel .login-username {
+    margin: 0 0 26px 93px!important;
+}
+.login-panel .login-password {
+    margin: 0 0 26px 93px!important;
+}
+.login-path {
+    margin: 30px 0 0 90px!important;
+}
+.login-cc-title{
+	width: 480px;
+	margin: 9% auto 0px auto;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}

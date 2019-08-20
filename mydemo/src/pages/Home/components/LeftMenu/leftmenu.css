@@ -1,0 +1,25 @@
+.left-menu {
+	float: left;
+	width: 15%;
+	min-height: 200px;
+	position: relative;
+}
+.left-menu li {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.left-menu .icon {
+    margin-right: 10px;
+}
+
+.left-menu .button {
+    width: 80%;
+    height: 67px;
+    margin-left: 20px;
+    margin-top: 6px;
+    margin-bottom: 13px;
+    font-size: 17px;
+    background-image: linear-gradient(to bottom, rgb(111, 224, 254) 7%, rgb(33, 162, 255) 100%);   /*背景颜色渐变*/
+}

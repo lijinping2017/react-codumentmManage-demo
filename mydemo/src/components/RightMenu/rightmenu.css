@@ -1,0 +1,52 @@
+/*右菜单外div样式*/
+.right-menu {
+    float: left;
+    width: 8%;
+    min-height: 200px;
+}
+
+.menu-warp {
+    float: left;
+    width: 95%;
+    min-height: 67px;
+        border-right: 1px solid rgba(238, 220, 238, 0.87);
+}
+
+.menu-warp li {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.menu-warp .icon {
+    margin-right: 10px;
+}
+
+.menu-warp .button {
+    float: right;
+    width: 87%;
+    height: 40px;
+    margin-left: 13px;
+    margin-top: 10px;
+    font-size: 14px;
+    background-image: linear-gradient(to bottom, rgb(111, 224, 254) 7%, rgb(33, 162, 255) 100%);
+}
+
+.menu-warp .home {
+    width: 58%;
+    height: 55px;
+    margin-right: 13px;
+}
+
+.menu-warp .active {
+    float: right;
+    width: 87%;
+    height: 40px;
+    margin-left: 13px;
+    margin-top: 10px;
+    font-size: 14px;
+    background-color: white;
+    color: rgb(53, 171, 228);
+    border: none;
+    box-shadow: 3px 1px 4px 2px rgba(171,171,171,0.83);
+}

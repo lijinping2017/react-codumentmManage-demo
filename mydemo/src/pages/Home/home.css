@@ -1,0 +1,22 @@
+.home-content {
+	float: left;
+	width: 100%;
+	min-height: 200px;
+}
+
+.details {
+    float: right;
+    width: 83%;
+    min-height: 200px;
+   	margin-top: 20px;
+}
+
+.details p {
+	margin-top: 10px;
+	text-indent: 2em;
+}
+
+
+
+
+

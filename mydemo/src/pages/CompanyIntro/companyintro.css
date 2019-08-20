@@ -1,0 +1,6 @@
+/*右菜单外div样式*/
+.right-menu {
+    float: left;
+    width: 8%;
+    min-height: 200px;
+}

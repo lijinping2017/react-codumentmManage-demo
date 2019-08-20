@@ -1,0 +1,61 @@
+.document-content {
+    float: left;
+    width: 97%;
+    margin-left: 18px;
+    min-height: 200px;
+	margin-bottom: 25px;
+}
+
+.document-left {
+	float: left;
+    width: 17%;
+    min-height: 220px;
+	border: 1px solid #1d202075;
+}
+
+.document-right {
+	float: right;
+    width: 81.3%;
+    min-height: 220px;
+	border: 1px solid #1d202075;
+	padding: 10px 15px;
+}
+
+.document-right Button {
+	margin-left: 8px;
+}
+
+.document-left-top {
+	float: left;
+    width: 100%;
+    height: 30px;
+    background-color: #1890ff;
+}
+
+.document-left-top h4 {
+    color: white;
+    margin-left: 10px;
+    margin-top: 3px;	
+}
+
+.document-folder {
+    float: left;
+    width: 98%;
+    height: 140px;
+    margin-top: 20px;
+}
+
+.document-icon {
+    float: left;
+    min-width: 90px;
+    height: 100px;
+    text-align: center;
+}
+
+.document-folder .icon {
+    font-size: 70px;
+    color: rgb(0, 255, 236);
+}
+
+
+

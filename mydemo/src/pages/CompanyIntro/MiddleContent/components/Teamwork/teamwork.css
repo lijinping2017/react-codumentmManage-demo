@@ -1,0 +1,17 @@
+.teamwork-content {
+    float: left;
+    width: 100%;
+    min-height: 200px;
+}
+
+.teamwork-img {
+    float: left;
+    width: 96%;
+    margin: 2% 0;
+    height: 640px;
+}
+
+.teamwork-img img {
+    width: 100%;
+    height: 100%;
+}

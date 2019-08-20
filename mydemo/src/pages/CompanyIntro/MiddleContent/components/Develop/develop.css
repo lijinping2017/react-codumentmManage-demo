@@ -1,0 +1,42 @@
+.develop-content {
+    float: left;
+    width: 100%;
+    min-height: 200px;
+}
+
+.develop-img {
+    float: left;
+    width: 96%;
+    margin: 2%;
+    height: 356px;
+}
+
+.develop-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.develop-title {
+	float: left;
+	width: 96%;
+	height: 50px;
+	margin-left: 2%;
+}
+
+.develop-list {
+	float: left;
+	width: 96%;
+	min-height: 200px;
+	margin: 0 2%;
+    margin-bottom: 30px;
+}
+
+.develop-list li {
+    float: left;
+    width: 26%;
+    height: 81px;
+    margin: 12px 12px;
+    list-style-type: none;
+    background-color: #9e9e9e4d;
+    padding: 6px 9px;
+}

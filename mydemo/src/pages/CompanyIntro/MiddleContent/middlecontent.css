@@ -1,0 +1,72 @@
+.warp {
+	float: left;
+    width: 90%;
+    min-height: 200px;
+    margin-left: 18px;
+    box-shadow: 0px 0px 5px 2px rgba(189,183,189,0.87);
+}
+
+.company-content {
+    float: left;
+    width: 96%;
+    margin-left: 2%;
+    min-height: 200px;
+}
+
+.middlemenu-wrap {
+	float: left;
+	width: 100%;
+	height: 60px;
+	background-color: rgb(231,246,257);
+}
+
+.content {
+	float: left;
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+}
+
+.left-icon {
+	float: left;
+	width: 8px;
+	height: 100%;
+	margin-left: 10px;
+	background-color: rgb(58, 180, 254);
+}
+
+.left-title {
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 10px;
+    line-height: 100%;
+    padding-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.right-title {
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+
+.right-title ul {
+	height: 100%;
+}
+
+.right-title li {
+    list-style-type: none;
+    float: right;
+    height: 100%;
+    color: rgb(58, 180, 254);
+    text-align: center;
+    font-weight: bold;
+    padding: 12px 12px 0px 12px;
+    cursor: pointer;
+}
+
+.right-title .active {
+	border-bottom: 4px solid rgb(58, 180, 254);
+}

@@ -1,0 +1,287 @@
+::-webkit-input-placeholder { /* WebKit browsers */
+	color: #d2d2d2;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: #d2d2d2;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: #d2d2d2;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color: #d2d2d2;
+}
+
+.register-panel {
+	width: 899px;
+	height: 655px;
+	background: #fff;
+}
+
+.register-panel .register-title {
+	width: 296px;
+	margin-bottom: 27px;
+	margin-left: 155px;
+}
+
+.register-title h3 {
+	width: 143px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-bottom: 2px solid #01a0ea;
+	font-size: 22px;
+	color: #01a0ea;
+	margin: 0 auto;
+}
+
+.register-panel>div.ant-form-item {
+	margin-bottom: 14px;
+	position: relative;
+	min-height: 20px;
+}
+
+.register-panel>div label {
+	display: inline-block;
+	width: 128px;
+	font-size: 14px;
+	color: #333;
+	text-align: right;
+	margin-right: 23px;
+}
+
+.register-panel>div label+input {
+	height: 44px;
+	font-size: 12px;
+	/* text-indent:50px; */
+	padding-left: 50px;
+	box-sizing: border-box;
+	border: 1px solid #bcbcbc;
+	border-radius: 3px;
+	width: 296px;
+}
+
+.register-panel .icon {
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	top: 0px;
+	left: 170px;
+	z-index: 10;
+}
+
+.register-username .icon {
+	background: url(./images/personIcon.png) no-repeat;
+	background-position: 1px 0;
+}
+
+.register-password .icon, .register-conpassword .icon {
+	background: url(./images/lockIcon.png) no-repeat;
+	background-position: 1px 0;
+}
+
+.register-telephone .icon {
+	background: url(./images/telephoneIcon.png) no-repeat;
+	background-position: 1px 0;
+}
+
+.register-shortValidateCode .icon {
+	background: url(./images/shortIcon.png) no-repeat;
+	background-position: 1px 0;
+}
+
+.register-email .icon {
+	background: url(./images/emailIcon.png) no-repeat;
+	background-position: 1px 0;
+}
+
+.register-deal {
+	margin-left: 155px;
+	font-size: 12px;
+	color: #aaaaaa;
+	margin-bottom:14px;
+}
+.register-deal .message[data-state="notpass"]{
+    color: #f5222d
+}
+.register-deal input:checked+label {
+	background: url(./images/checked.png) no-repeat;
+}
+
+.register-deal input+label {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	background: url(./images/unchecked.png) no-repeat;
+	cursor: pointer;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.register-deal input {
+	display: none;
+}
+
+.register-deal .deal-name {
+	color: #52b5ff;
+}
+
+.register-deal .deal-box {
+	display: inline-block
+}
+
+.register-deal a {
+	color: #52b5ff;
+}
+
+.register-panel .codeImg {
+	display: inline-block;
+	width: 58px;
+	height: 22px;
+	margin-left: 12px;
+	background: red;
+	vertical-align: middle;
+}
+
+.register-panel .exchange {
+	color: #52b5ff;
+	margin-left: 3px;
+	cursor: pointer;
+}
+
+.register-panel .getShortCode {
+	width: 80px;
+	height: 30px;
+	margin-left: 12px;
+	font-size: 12px;
+	border-radius: 3px;
+	cursor: pointer;
+	border: 1px solid #52b6ff;
+	background: #52b6ff;
+	color: #fff;
+}
+
+.register-panel .getShortCode:hover {
+	border: 1px solid #00a1ea;
+	background: #00a1ea;
+}
+
+.register-panel .getShortCode:disabled {
+	background: #f2f2f2;
+	color: #b7b8b8;
+	border: 1px solid #cccccc;
+}
+
+/*.register-panel .message ,.register-panel .ant-form-explain{
+	margin-left: 12px;
+	font-size: 12px;
+	display: none;
+	vertical-align: middle;
+}*/
+.register-panel .ant-form-explain{
+	display: inline-block;
+	width: 260px;
+	vertical-align: middle;
+	padding-top: 0;
+	margin-left: 12px;
+}
+.register-panel .message[data-state="init"] {
+	color: #5e5e5e;
+	width: 216px;
+	display: inline-block;
+}
+.register-panel .has-feedback .message[data-state="init"]{
+	display: none;
+}
+/*.register-panel .has-feedback.has-success .message[data-state="pass"] ,.register-panel .has-success .message[data-state="pass"],.register-panel .has-feedback.is-validating .message[data-state="pass"]{
+	width: 18px;
+	height: 18px;
+	background: url(../images/trueIcon.png) no-repeat;
+	display: inline-block;
+}
+.register-panel .message[data-state="notpass"] ,.register-panel .has-error .ant-form-explain{
+	color: #fd3942;
+	background: url(../images/falseIcon.png) no-repeat;
+	padding-left: 18px;
+	box-sizing: border-box;
+	max-width: 240px;
+	min-height: 18px;
+	display: inline-block;
+}*/
+
+.register-panel [data-show="true"] {
+	display: block;
+}
+
+.register-panel [data-show="false"] {
+	display: none;
+}
+
+.register-btn {
+	margin-left: 155px;
+}
+
+.register-btn button {
+	width: 167px;
+	height: 38px;
+	margin-left: 65px;
+	background-color: #52b6ff;
+	cursor: pointer;
+	color: white;
+	text-align: center;
+	line-height: 38px;
+	font-size: 14px;
+	border-radius: 3px;
+	border: none;
+}
+
+.register-btn button:hover {
+	background-color: #00a1ea;
+}
+
+.register-btn button:disabled {
+	background-color: #7bc6ff;
+}
+
+.register-btn .systemMessages {
+	color: #fd3942;
+}
+
+.register-btn .systemMessages:empty::after {
+	content: "\A0";
+}
+
+.ant-form-item-control{
+	line-height:inherit;;
+}
+#register-main{
+	margin: 0px!important;
+	background: url(./images/login.jpg) no-repeat!important;
+	width: 100%!important;
+	min-height: 100vh;
+}
+#register-main>.template{
+	float: none!important;
+}
+#register-main>.template .register-panel {
+    display:block;
+	margin: 10px auto 0px auto;
+	border-radius: 15px;
+	background-color:rgba(255, 255, 255, 0.3);
+	width: 780px;
+	min-height: 460px;
+	height: 460px;
+}
+.register-cc-title{
+	width: 480px;
+	margin: 4% auto 0px auto;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+#register-container {
+	min-width: 0px!important;
+}
