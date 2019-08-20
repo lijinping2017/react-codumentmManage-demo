@@ -36,8 +36,6 @@
 
 ![whitepage](https://github.com/lijinping2017/react-codumentmManage-demo/raw/master/images/whitepage.png)
 
-
-
 ### 10 白皮书详情
 
 ![whitepage1](https://github.com/lijinping2017/react-codumentmManage-demo/raw/master/images/whitepage1.png)
